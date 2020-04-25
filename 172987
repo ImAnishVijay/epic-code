@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Anish Vijay</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   	<h1>Cookies are awesome!</h1>
+   <div class="mainbox" id="box1">
+   	  <div class="box">
+   	    <p id="p1" class="p" >Cookies</p>
+   	    <section>Cookies are very good and tasty. Cookies are sweet. They are called cookies because their name is cookies. There are many types of cookies. All cookies are of different flavours. Everyone loves eating cookies no matter what flavour they are. So in short, cookies are awesome!</section>
+   	  </div>
+	 </div>
+	 
+	   <div class="mainbox" id="box2">
+	    <div class="box">
+	    <p class="p" id="p2">Cookies</p>
+	      <section>Cookies are very good and tasty. Cookies are sweet. They are called cookies because their name is cookies. There are many types of cookies. All cookies are of different flavours. Everyone loves eating cookies no matter what flavour they are. So in short, cookies are awesome!</section>
+	    </div>
+	    </div>
+	    <div class="mainbox" id="box3" > 
+	    <div class="box">
+	      <p class="p" id="p3">
+	        Cookies</p>
+	      <section>Cookies are very good and tasty. Cookies are sweet. They are called cookies because their name is cookies. There are many types of cookies. All cookies are of different flavours. Everyone loves eating cookies no matter what flavour they are. So in short, cookies are awesome!</section>
+	    </div>
+	  </div>
+	  
+	 
+</body>
+</html>
