@@ -1,0 +1,94 @@
+* {
+   box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0px 0px 20px 0px;
+  background-color: whitesmoke;
+}
+/* Header start */
+#header-nav {
+  background-color: #1fb29e;
+  border: 0;
+  border-radius: 0;
+}
+.navbar-brand {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+  line-height: .75;
+}
+#collapsable-nav a span {
+  font-size: 1.2em;
+}
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: whitesmoke;
+  width: 30%;
+  zoom: 130%;
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* Header ends */
+
+/* Body start */
+h3 {
+  font-size: 1.9em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 20px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  width: auto;
+  height: auto;
+  padding: 5px;
+  margin: 20px;
+  position: relative;
+}
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+#chicken {
+  background-color: lightblue;
+}
+
+#beef {
+  background-color: lightpink;
+}
+
+#sushi {
+  background-color: lavender;
+}
+/* Body ends */
