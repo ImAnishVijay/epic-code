@@ -3,7 +3,7 @@
 }
 body {
   padding: 0;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 10px 0px;
   background-color: whitesmoke;
 }
 /* Header start */
@@ -14,42 +14,38 @@ body {
 }
 .navbar-brand {
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
 .navbar-brand h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   color: black;
   text-align: left;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border: 0;
   line-height: .75;
 }
-#collapsable-nav a span {
-  font-size: 1.2em;
+.navbar-header {
+  margin: 20px 0px 20px;
+}
+#nav-list a {
+  text-align: center;
+  color: black;
+}
+#nav-list a span {
+  font-size: 1.4em;
 }
 #nav-list {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-#nav-list a {
-  color: black;
-  text-align: center;
-}
-#nav-list a:hover {
-  color: whitesmoke;
-  width: 30%;
-  zoom: 130%;
-  text-decoration: none;
-}
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
-  border: 1px solid black;
+  border: 1.5px solid black;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -66,16 +62,17 @@ h3 {
 .container {
   margin-left: auto;
   margin-right: auto;
-}
+ }
 .box {
+  font-family: 1.3em;
   width: auto;
   height: auto;
-  padding: 5px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
   position: relative;
 }
 .title {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
   text-align: center;
   padding: 5px;
