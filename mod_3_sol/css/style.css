@@ -64,12 +64,14 @@ h3 {
   margin-right: auto;
  }
 .box {
-  font-family: 1.3em;
   width: auto;
   height: auto;
   padding: 10px;
   margin: 10px;
   position: relative;
+}
+.box p {
+  font-size: 1.3em; 
 }
 .title {
   font-size: 1.3em;
